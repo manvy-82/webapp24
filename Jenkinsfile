@@ -10,7 +10,7 @@ pipeline {
             script 
             { stages 
                     // Define SSH credentials
-                    def remoteServer = [
+                    def remoteServer = 
                         name: 'SSH_CREDENTIALS_ID', // 2b5387cd-0baf-497b-aa5c-8f363d129654
                         host: 'REMOTE_HOST',         // ec2-204-236-213-195.compute-1.amazonaws.com
                         user: 'REMOTE_USER',         // ec2-user
